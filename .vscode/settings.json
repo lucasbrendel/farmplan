@@ -1,3 +1,25 @@
 {
-    "python.pythonPath": ".venv\\Scripts\\python.exe"
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "editor.rulers": [
+        100
+    ],
+    "editor.formatOnSave": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.pylintUseMinimalCheckers": false,
+    "pythonTestExplorer.testFramework": "pytest",
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.linting.pylintCategorySeverity.refactor": "Information",
+    "python.formatting.provider": "autopep8",
+    "coverage-gutters.showLineCoverage": true,
+    "terminal.integrated.env.windows": {
+        "PIPENV_VENV_IN_PROJECT": "1"
+    },
+    "jupyter.debugJustMyCode": false
 }
