@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "farmplan"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Brendel <lucasbrendel@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.5"
+rope = "^0.18.0"
+pylint = "^2.7.0"
+pydocstyle = "^5.1.1"
+pycodestyle = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
