@@ -13,7 +13,7 @@ dearpygui = "^1.0.0"
 autopep8 = "^1.5.5"
 rope = "^0.22.0"
 pylint = "^2.7.0"
-pydocstyle = "^5.1.1"
+pydocstyle = "^6.0.0"
 pycodestyle = "^2.6.0"
 
 [build-system]
