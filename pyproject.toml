@@ -12,7 +12,7 @@ dearpygui = "^1.0.0"
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.5.5"
 rope = "^0.23.0"
-pylint = "^2.7.0"
+pylint = "^3.0.0"
 pydocstyle = "^6.0.0"
 pycodestyle = "^2.6.0"
 
